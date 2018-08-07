@@ -1,0 +1,22 @@
+{
+  "name": "personal-portfolio_website",
+  "version": "1.0.0",
+  "description": "Pesponsive portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kehdcode/Personal-Portfolio_website.git"
+  },
+  "author": "Kehcode",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kehdcode/Personal-Portfolio_website/issues"
+  },
+  "homepage": "https://github.com/kehdcode/Personal-Portfolio_website#readme",
+  "dependencies": {
+    "node-sass": "^4.9.2"
+  }
+}
