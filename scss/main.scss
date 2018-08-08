@@ -1,4 +1,5 @@
 @import 'config';
+@import 'menu';
 
 *{
     box-sizing: border-box;
@@ -25,7 +26,7 @@ font-weight: 400;
 &sm-heading{
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgbs(lighten($primary-color,2), 0.5);
+    background: rgbs(lighten($primary-color,2), 0.2);
 }
 }
 
