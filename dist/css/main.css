@@ -176,6 +176,7 @@ main {
     border-bottom: #eece1a 5px solid; }
 
 .project {
+  margin-top: 1.5rem;
   display: grid;
   grid-gap: 0.7rem;
   grid-template-columns: repeat(3, 1fr); }
@@ -199,7 +200,6 @@ main {
     margin-bottom: 3rem;
     transition: all 0.5s ease-out; }
     .boxes div:hover {
-      padding: 0.5rem 1.5rem;
       background: #eece1a;
       color: #000; }
       .boxes div:hover span {
