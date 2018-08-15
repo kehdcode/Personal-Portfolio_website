@@ -34,3 +34,16 @@ function toggleMenu(){
 
  }
 }
+//Typing Effect
+
+let i = 0;
+let txt = 'Lorem ipsum typing effect Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum typing effect Lorem ipsum dolor sit amet consectetur adipisicing elit'; /* The text */
+const speed = 100; /* The speed/duration of the effect in milliseconds */
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("aboutMe").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
