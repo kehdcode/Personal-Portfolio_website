@@ -37,7 +37,8 @@ function toggleMenu(){
 //Typing Effect
 
 let i = 0;
-let txt = 'Lorem ipsum typing effect Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum typing effect Lorem ipsum dolor sit amet consectetur adipisicing elit'; /* The text */
+let txt ='Dawood Ahmed Kehinde{Kehcode}, is a biochemist turn developer. passionate about Tech and Community. Understand Design and Development. I write and teach code and sometimes I design'; /* The text */
+
 const speed = 100; /* The speed/duration of the effect in milliseconds */
 
 function typeWriter() {
